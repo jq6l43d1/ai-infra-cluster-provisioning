@@ -199,7 +199,7 @@ resource "google_container_node_pool" "node-pools" {
     disk_type       = var.disk_type
 
     ephemeral_storage_local_ssd_config {
-      local_ssd_count = 16
+      local_ssd_count = 8
     }
 
     shielded_instance_config {
